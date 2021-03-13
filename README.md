@@ -1,2 +1,2 @@
 # TOKEN-CM-GM
- tokenlogger applet for clinic pilot
+ tokenlogger pilot

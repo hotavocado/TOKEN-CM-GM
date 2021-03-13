@@ -1,0 +1,30 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "token_screen",
+    "question": "Check the behavior(s) your child did:",
+    "ui": {
+        "inputType": "radio",
+        "allow": [
+            "dontKnow"
+        ]
+    },
+    "responseOptions": {
+        "valueType": "xsd:token",
+        "schema:minValue": 0,
+        "schema:maxValue": 1,
+        "multipleChoice": true,
+        "choices": [{
+            "@type": "schema:option",
+            "schema:name": "Received 10+ checks at school",
+            "schema:value": 1
+        },
+        {
+            "schema:name": "Completed afternoon checklist",
+            "@type": "schema:option",
+            "schema:value": 1
+        }]
+    }
+}
